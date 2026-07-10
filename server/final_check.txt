@@ -1,0 +1,5 @@
+--- RECORDS FROM TODAY (OR ID > 390) ---
+ID: 391 | User: 16 | Name: null | Date: Sat Feb 28 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 12:28:03 | Image: null
+ID: 392 | User: 3 | Name: Employee User | Date: Sat Feb 28 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 12:45:54 | Image: http://localhost:5000/uploads/attendance/attendance_3_1772262954311.png
+ID: 393 | User: 15 | Name: abhi | Date: Sat Feb 28 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 12:50:29 | Image: http://localhost:5000/uploads/attendance/attendance_15_1772263229375.png
+ID: 394 | User: 14 | Name: vivek yadav | Date: Sat Feb 28 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 12:55:13 | Image: http://localhost:5000/uploads/attendance/attendance_14_1772263513510.png

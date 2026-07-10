@@ -1,0 +1,12 @@
+--- MOST RECENT ATTENDANCE RECORDS ---
+ID: 393 | UserID: 15 | Name: abhi | Date: Sat Feb 28 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 12:50:29 | Image: http://localhost:5000/uploads/attendance/attendance_15_1772263229375.png
+ID: 392 | UserID: 3 | Name: Employee User | Date: Sat Feb 28 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 12:45:54 | Image: http://localhost:5000/uploads/attendance/attendance_3_1772262954311.png
+ID: 391 | UserID: 16 | Name: null | Date: Sat Feb 28 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 12:28:03 | Image: null
+ID: 390 | UserID: 24 | Name: null | Date: Tue Jan 27 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 09:25:00 | Image: null
+ID: 389 | UserID: 24 | Name: null | Date: Wed Jan 28 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 09:14:00 | Image: null
+ID: 388 | UserID: 24 | Name: null | Date: Thu Jan 29 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 09:13:00 | Image: null
+ID: 387 | UserID: 24 | Name: null | Date: Fri Jan 30 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 09:05:00 | Image: null
+ID: 386 | UserID: 24 | Name: null | Date: Sat Jan 31 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 09:03:00 | Image: null
+ID: 385 | UserID: 24 | Name: null | Date: Mon Feb 02 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 09:21:00 | Image: null
+ID: 384 | UserID: 24 | Name: null | Date: Tue Feb 03 2026 00:00:00 GMT+0530 (India Standard Time) | ClockIn: 09:14:00 | Image: null
+--- END RECORDS ---

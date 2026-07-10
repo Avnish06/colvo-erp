@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-02-23T05:48:50.403Z",
+  "reminders": [
+    {
+      "id": 2,
+      "lead_id": 2,
+      "user_id": 2,
+      "reminder_date": "2026-02-24T04:41:00.000Z",
+      "message": "do it",
+      "is_completed": 0,
+      "created_at": "2026-02-23T04:41:42.000Z",
+      "lead_name": "vivek",
+      "user_name": "Admin User"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Super Admin",
+      "role": "Super Admin"
+    },
+    {
+      "id": 2,
+      "name": "Admin User",
+      "role": "Admin"
+    },
+    {
+      "id": 3,
+      "name": "Employee User",
+      "role": "Employee ERP"
+    },
+    {
+      "id": 4,
+      "name": "avnish",
+      "role": "Employee ERP"
+    },
+    {
+      "id": 9,
+      "name": "tanzeem",
+      "role": "Employee ERP"
+    },
+    {
+      "id": 14,
+      "name": "vivek yadav",
+      "role": "Employee CRM"
+    },
+    {
+      "id": 15,
+      "name": "abhi",
+      "role": "Employee ERP"
+    },
+    {
+      "id": 16,
+      "name": "vishu",
+      "role": "Employee CRM"
+    },
+    {
+      "id": 17,
+      "name": "rishabh",
+      "role": "Admin"
+    }
+  ]
+}

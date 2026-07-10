@@ -1,0 +1,13 @@
+--- USERS SCHEMA ---
+id | int(11)
+email | varchar(255)
+password | varchar(255)
+role_id | int(11)
+joined_at | timestamp
+name | varchar(511)
+employee_id | varchar(50)
+vendor_id | varchar(50)
+status | varchar(50)
+department_id | int(11)
+phone | varchar(20)
+company_name | varchar(255)

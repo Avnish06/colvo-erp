@@ -1,0 +1,9 @@
+--- ATTENDANCE TABLE SCHEMA ---
+id | int(11) | Null: NO | Key: PRI | Default: null
+user_id | int(11) | Null: YES | Key: MUL | Default: null
+date | date | Null: NO | Key:  | Default: null
+clock_in | time | Null: YES | Key:  | Default: null
+clock_out | time | Null: YES | Key:  | Default: null
+status | enum('Present','Absent','Late','On Leave') | Null: YES | Key:  | Default: Present
+image_url | varchar(255) | Null: YES | Key:  | Default: null
+--- END SCHEMA ---

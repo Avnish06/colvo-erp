@@ -1,0 +1,123 @@
+Tables: admins, announcements, attendance, audit_logs, available_tools, call_logs, call_reminders, company_policies, customer_documents, customer_interactions, customers, deal_team, deals, departments, developers, email_automation, email_logs, email_templates, employee_documents, employees, expenditures, invoice_items, invoices, lead_activities, lead_reminders, leads, leave_requests, message_logs, notifications, payroll, payroll_rules, permissions, projects, reports, role_permissions, roles, salary_structures, superadmins, system_settings, task_reports, tasks, tickets, user_identities, users, users_old, vendor_tools, vendors, wfh_requests
+
+### TABLE: admins ###
+- user_id: int(11)
+- name: varchar(255)
+- employee_id: varchar(50)
+- status: varchar(50)
+- joined_at: timestamp
+- email: varchar(255)
+- password: varchar(255)
+
+### TABLE: developers ###
+- id: int(11)
+- user_id: int(11)
+- name: varchar(150)
+- employee_id: varchar(50)
+- status: enum('Active','Inactive','Suspended')
+- joined_at: timestamp
+- email: varchar(255)
+- password: varchar(255)
+
+### TABLE: employee_documents ###
+- id: int(11)
+- user_id: int(11)
+- doc_type: enum('Aadhar Card','PAN Card','Driving License')
+- doc_url: longtext
+- status: enum('Pending','Approved','Rejected')
+- uploaded_at: timestamp
+
+### TABLE: employees ###
+- user_id: int(11)
+- name: varchar(255)
+- employee_id: varchar(50)
+- department_id: int(11)
+- status: varchar(50)
+- joined_at: timestamp
+- email: varchar(255)
+- password: varchar(255)
+- face_descriptor: text
+
+### TABLE: superadmins ###
+- user_id: int(11)
+- name: varchar(255)
+- employee_id: varchar(50)
+- vendor_id: varchar(50)
+- phone: varchar(20)
+- company_name: varchar(255)
+- status: varchar(50)
+- joined_at: timestamp
+- email: varchar(255)
+- password: varchar(255)
+
+### TABLE: user_identities ###
+- id: int(11)
+- email: varchar(255)
+- password: varchar(255)
+- role_id: int(11)
+- created_at: timestamp
+- profile_image: longtext
+
+### TABLE: users ###
+- id: int(11)
+- email: varchar(255)
+- password: varchar(255)
+- role_id: int(11)
+- joined_at: timestamp
+- name: varchar(511)
+- employee_id: varchar(50)
+- vendor_id: varchar(50)
+- status: varchar(50)
+- department_id: int(11)
+- phone: varchar(20)
+- company_name: varchar(255)
+
+### TABLE: users_old ###
+- id: int(11)
+- employee_id: varchar(20)
+- name: varchar(100)
+- email: varchar(100)
+- password: varchar(255)
+- role_id: int(11)
+- department_id: int(11)
+- status: varchar(50)
+- joined_at: timestamp
+
+### TABLE: vendor_tools ###
+- id: int(11)
+- vendor_user_id: int(11)
+- tool_name: varchar(100)
+- tool_key: varchar(50)
+- description: text
+- icon: varchar(50)
+- enabled: tinyint(1)
+- assigned_by: int(11)
+- created_at: timestamp
+- tool_url: varchar(255)
+
+### TABLE: vendors ###
+- id: int(11)
+- first_name: varchar(255)
+- last_name: varchar(255)
+- email: varchar(255)
+- phone: varchar(20)
+- company_name: varchar(255)
+- user_id: int(11)
+- vendor_id: varchar(50)
+- password: varchar(255)
+- status: varchar(20)
+- created_at: timestamp
+
+### TABLE/VIEW: users ###
+- id: int(11)
+- email: varchar(255)
+- password: varchar(255)
+- role_id: int(11)
+- joined_at: timestamp
+- name: varchar(511)
+- employee_id: varchar(50)
+- vendor_id: varchar(50)
+- status: varchar(50)
+- department_id: int(11)
+- phone: varchar(20)
+- company_name: varchar(255)

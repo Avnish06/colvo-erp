@@ -1,0 +1,7 @@
+Connected to DB
+USERS VIEW result count: 1 | data: [{"id":24,"email":"developer@system.local","status":"Active","role_id":5,"pwd_len":60}]
+USER_IDENTITIES count: 1 | data: [{"id":24,"email":"developer@system.local","role_id":5,"pwd_len":60}]
+DEVELOPER ROLE: [{"id":5,"name":"Developer"}]
+USERS TABLE TYPE: [{"Tables_in_management_system (users)":"users","Table_type":"VIEW"}]
+LOGIN QUERY result count: 1 | role: Developer | status: Active
+bcrypt.compare(developer123, hash) = true
